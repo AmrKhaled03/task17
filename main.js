@@ -144,7 +144,7 @@ let cartBody = document.querySelector("tbody");
 function showCart() {
   cartBody.innerHTML = "";
   cartItems.forEach(item => {
-    cartEl = document.createElement("tr");
+let  cartEl = document.createElement("tr");
     cartEl.innerHTML = `<td>${item.id}</td>
         <td><img src="${item.img}" alt="" srcset=""></td>
         <td>${item.title}</td>
