@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- css links -->
+     <link rel="stylesheet" href="./css/bootstrap.css">
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="up">UP</div>
+  <div class="preloader"><h1>AMR KHALED MAREY</h1> </div> 
+ 
+<header>
+    <nav>
+        <div class="left">
+<img src="imgs/247098189_584080323016743_1624283138537223290_n.jpg" alt="">
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-moon fa-xl icon" onclick="chanCol()"></i>
+        </div>
+    </nav>
+</header>
+    <!-- start navbar -->
+<nav class="navbar">
+<ul>
+    <li><a href="#home"><i class="fa-solid fa-house fa-xl"></i></a></li>
+    <li><a href="#about"><i class="fa-solid fa-user fa-xl"></i></a></li>
+    <li><a href="#skills"> <i class="fa-regular fa-chart-bar fa-xl"></i></a></li>
+    <li><a href="#work"><i class="fa-solid fa-briefcase fa-xl"></i></a></li>
+    <li><a href="#contact"><i class="fa-solid fa-address-card fa-xl"></i></a></li>
+</ul>
+</nav>
+
+
+
+
+    <!-- end navbar -->
+    <!-- start section home -->
+<section class="land p-5 mb-5 mx-md-3" id="home">
+<div class="container ">
+    <div class="icons">
+      <a href="https://github.com/AmrKhaled03">  <i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100042443424173&sk=about"><i class="fa-brands fa-facebook fa-lg"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100042443424173&sk=about"><i class="fa-brands fa-instagram fa-lg"></i></a>
+    </div>
+    <div class="row ">
+      
+        
+        <div class="col-lg-7 col-md-7 col-sm-7 wow slideInLeft ps-5 pe-5" data-wow-duration="1s" data-wow-delay="1s">
+            <h1 class="mean">I am <span class="text-type"></span></h1>
+            <p>I joined the College of Computer Science and Information Technology in 2021 and majored in the field of software engineering with a grade of excellence, and I will graduate in 2025.</p>
+            <button type="button" class="btn mb-3" > <a href="#contact">TEXT ME</a></button>
+            </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+         <img src="imgs/247098189_584080323016743_1624283138537223290_n.jpg" alt="" class="img-fluid">   
+        </div>
+    </div>
+</div>
+</section>
+
+
+    <!-- end section home -->
+    <!-- start about -->
+<section class="about p-5 my-5 " id="about">
+    <h1 class="special text-center m-5 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">ABOUT ME</h1>
+
+<div class="container ">
+<div class="row ">
+    <div class=" col-md-6 col-lg-6 col-xl-6 ">
+<h1><i class="fa-solid fa-school fa-xl"></i>Education :</h1>
+<p>I joined the College of Computer Science and Information Technology in 2021 and majored in the field of software engineering with a grade of excellence, and I will graduate in 2025.</p>
+<h1><i class="fa-solid fa-location-dot fa-xl"></i>Place :</h1>
+<p>Cairo egypt (6th october , maadi)</p>
+<h1><i class="fa-solid fa-building-columns fa-xl"></i>University :</h1>
+<p>Nahda University in (Beni Suief)</p>
+    </div>
+    <div class=" col-md-6 col-lg-6 col-xl-6 wow slideInRight d-flex  justify-content-center" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="card">
+              <img src="imgs/247098189_584080323016743_1624283138537223290_n.jpg" class="img-fluid" alt="">
+        </div>
+    
+    </div>
+</div>
+</div>
+</section>
+    <!-- end about -->
+    <!-- start color -->
+<div class="color-switcher">
+    <div class="switcher-btn" onclick="openColors()">
+        <i class="fa-solid fa-palette fa-spin fa-spin-reverse"></i>
+    </div>
+    <h3>Select Color</h3>
+    <div class="theme-buttons-container">
+     <span class="theme-buttons" data-color="#8e44ad" style="background: #8e44ad;"></span>
+     <span class="theme-buttons" data-color="#2980b9" style="background: #2980b9;"></span>
+     <span class="theme-buttons" data-color="#f39c12" style="background: #f39c12;"></span>
+     <span class="theme-buttons" data-color="#27ae60" style="background: #27ae60;"></span>
+     <span class="theme-buttons" data-color="#e74c3c" style="background: #e74c3c;"></span>
+     <span class="theme-buttons" data-color="#e84393" style="background: #e84393;"></span>
+     <span class="theme-buttons" data-color="#ffc312" style="background: #ffc312;"></span>
+
+
+    </div>
+</div>
+    <!-- end color -->
+    <!-- start skills -->
+ <section class="skills my-5 p-5 d-flex justify-content-center align-items-center flex-column mx-md-3" id="skills">
+    <h1 class="special text-center m-s">SKILLS</h1>
+
+<div class="row  g-5 align-items-center justify-content-center">
+   <div class="col-md-6 col-lg-6 col-sm-12 sk ps-md-0 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="skill" ><small data-width="99%" > </small>
+        <p>Html</p>
+        </div>
+        <div class="skill" ><small data-width="90%" ></small>
+        <p>Css</p> 
+        </div>
+        <div class="skill" ><small data-width="80%" > </small>
+        <p>Javascript</p>
+        </div>
+        <div class="skill" ><small data-width="88%" ></small><p>React.Js</p> 
+        </div>
+        <div class="skill" ><small data-width="95%" > </small>
+        <p>Bootstrap</p>
+        </div>
+        <div class="skill" ><small data-width="85%" > </small>
+        <p>Vue.Js</p>
+        </div>
+</div> 
+<div class="col-md-6 col-lg-6 col-sm-12  sk wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="skill" ><small data-width="80%" > </small>
+        <p>Php</p>
+        </div>
+        <div class="skill" ><small data-width="85%" ></small>
+        <p>Laravel</p> 
+        </div>
+        <div class="skill" ><small data-width="90%" > </small>
+        <p>Flutter</p>
+        </div>
+        <div class="skill" ><small data-width="70%" ></small><p>C++</p> 
+        </div>
+        <div class="skill" ><small data-width="80%" > </small>
+        <p>Python</p>
+        </div>
+        <div class="skill" ><small data-width="85%" > </small>
+        <p>Frameworks</p>
+        </div>
+</div> 
+</div>
+  
+  </section> 
+  
+
+
+  
+  <!-- end skills -->
+  <!-- start work -->
+ <section class="work wow bounceInDown p-5 my-5 " data-wow-duration="1s" data-wow-delay="1s" id="work"> 
+  <h1 class="special text-center m-5">TOP WORK</h1> 
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-3 col-md-6  ">
+               <div class="card">
+                   <div class="img-fluid">
+              <img src="imgs//Screenshot 2023-05-31 at 1.28.33 AM.png" alt="" class="img-fluid">
+                   </div>
+                   <div class="content">
+                       <h3>Template One</h3>
+                       <button><a href="https://template-d2abzavkz-amrkhaled03.vercel.app">SHOW</a></button>
+                   </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-md-6  ">
+                <div class="card">
+                   <div class="img-fluid">
+                    <img src="imgs/Screenshot 2023-05-31 at 1.29.37 AM.png" alt="" class="img-fluid">
+                </div> 
+                <div class="content">
+                    <h3>Youtube Clone</h3>
+                    <button><a href="https://task12-beryl.vercel.app">SHOW</a></button>
+                </div>
+                </div>
+                
+            </div>
+             <div class="col-lg-3 col-md-6  ">
+                <div class="card">
+    <div class="img-fluid">
+                    <img src="imgs/Screenshot 2023-05-31 at 1.28.06 AM.png" alt="" class="img-fluid">
+                </div>
+                <div class="content">
+                    <h3>
+                        E-commerce
+                       
+                    </h3>
+                    <button><a href="https://task-javascript.vercel.app">SHOW</a></button>
+                </div>
+                </div>
+            
+            </div>
+             <div class="col-lg-3 col-md-6  ">
+                <div class="card">
+                     <div class="img-fluid">
+                    <img src="imgs/Screenshot 2023-05-31 at 1.30.27 AM.png" alt="" class="img-fluid">
+                </div> 
+                <div class="content">
+                    <h3>
+                        Facebook Clone
+                      
+                    </h3>
+                      <button><a href="https://task10-ovhz.vercel.app">SHOW</a></button>
+                </div>
+                </div>
+              
+            </div>
+
+
+        </div>
+        <div class="row mt-5 ">
+            <div class="col-md-12 col-lg-12 col-sm-12 d-flex justify-content-center align-items-center">
+                <button><a href="https://github.com/AmrKhaled03">MORE</a></button>
+            </div>
+        </div>
+    </div>
+</section> 
+  <!-- end work -->
+  <!-- start contact me -->
+<section class="contact my-5 p-5 d-flex justify-content-center align-items-center flex-column mx-md-3" id="contact">
+    <h1 class="special">CONTACT ME</h1>
+   <div class="row g-3 ">
+       <div class="col-md-6 col-sm-12 col-lg-6 wow slideInLeft pe-md-5" data-wow-duration="1s" data-wow-delay="1s">
+<ul>
+    <li><i class="fa-solid fa-phone fa-xl"></i><span>:01551729880</span> </li>
+    <li><i class="fa-solid fa-envelope fa-xl"></i><span>:kamr4014@gmail.com</span> </li>
+    <li><i class="fa-brands fa-github fa-xl"></i><span>:AmrKhaled03</span> </li>
+</ul>
+       </div>
+       <div class="col-md-6 col-sm-12 col-lg-6 wow slideInRight ps-md-5" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="row g-2 ms-5">
+         
+            <div class="col-sm-12 col-md-12">
+              <input type="text" class="form-control" placeholder="Your Name" aria-label="Name" name="name" id="name">
+            </div>
+            <div class="col-sm-12 col-md-12">
+              <input type="email" class="form-control" placeholder="Your Email" aria-label="Email" name="email" id="email">
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <input type="text" class="form-control" placeholder="Your Phone" aria-label="Phone" name="phone" id="phone">
+              </div>
+          </div>
+          <div class="row ">
+              <div class="col mt-3 ms-5">
+
+                <textarea class="form-control "  rows="4" id="message" name="message" placeholder="Your Message"></textarea>
+              </div>
+
+          </div>
+          <div class="row ">
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn " onclick="sendEmail()">SEND</button>
+              </div>
+          </div>
+       
+       </div>
+   </div>
+</section>
+
+
+
+  <!-- end contact -->
+  <!-- start footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+           
+            <div class="col text-center">
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> <strong style="color: var(--main-color);">AMR KHALED MAREY</strong> All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  <!-- end footer -->
+       <!-- js links -->
+
+       <script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+   </script>
+   <script type="text/javascript">
+   (function(){
+     emailjs.init("Go-F8wtSOy7rYOqzq");
+   })();
+  </script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/bootstrap.js"></script>
+
+       <!-- MDB -->
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <script src="js/script.js"></script>
+</body>
+</html>
